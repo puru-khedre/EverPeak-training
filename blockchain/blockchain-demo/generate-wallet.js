@@ -21,3 +21,4 @@ if (!wallets.hasOwnProperty(newWalletName)) {
     writeFileSync("./wallets.json", wallets)
 
 }
+

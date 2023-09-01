@@ -2,6 +2,7 @@ const sha256 = require("crypto-js/sha256.js")
 
 const { getBlockchain, writeBlockchain, writeTransactions, getTransactions, getWalletAddressFromName } = require("./blockchain-helpers.js")
 
+
 const blockchain = getBlockchain();
 const previousBlock = blockchain[blockchain.length - 1];
 const transactions = getTransactions();

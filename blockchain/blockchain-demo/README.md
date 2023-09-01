@@ -10,7 +10,7 @@ npm install
 
 ### Intializing blockchain
 
-Open `blockchain.json`, which contained our blockchain. And run this below command to re-initialise blockchain.
+Open [**blockchain.json**](./blockchain.json), which contained our blockchain. And run this below command to re-initialise blockchain.
 
 ```bash
 node init-blockchain.js
@@ -18,7 +18,7 @@ node init-blockchain.js
 
 ### Mining blocks
 
-Run below command to mine new block and it's added in main blockchain (in `blockchain.json`).
+Run below command to mine new block and it's added in main blockchain (in [**blockchain.json**](./blockchain.json)).
 
 ```bash
 node mine-block.js
@@ -36,13 +36,13 @@ It logs out that chain is valid or/not.
 
 ### Create a new wallet
 
-All the wallets with their **name** & **public key** are stored in `wallets.json`
+All the wallets with their **name** & **public key** are stored in [**wallets.json**](./wallets.json)
 
 ```bash
 node generate-wallet.js <USER_NAME>
 ```
 
-Don't forget to pass username. You can see new wallet is added in `wallets.json`
+Don't forget to pass username. You can see new wallet is added in [**wallets.json**](./wallets.json)
 
 ### Get public address of wallet
 

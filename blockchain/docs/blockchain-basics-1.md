@@ -26,4 +26,33 @@ Every blockchain have their own **token system** like currency in a real-world. 
 
 ## Cryptography
 
-As we know that the blockchain is shared ledger so the privacy of data is main concern. Here comes the importance of **cryptographic algorithms** to encrypt transactions.
+As we know that the blockchain is shared ledger so the security and privacy of data is main concern. Here comes the importance of **cryptographic algorithms** to encrypt data
+
+Some of the uses of cryptography in blockchain:
+
+- Digital signatures
+- Public & Private keys
+- Creating addresses
+- Used by consensus mechanisms
+- Secure transactions
+- Encrypt/Decrypt data
+
+## Consensus Protocols
+
+This are the set of rules that allows participants in a decentralized networks, like a blockchain, to agree on the **state of the network** and **validity of transactions**. These protocols ensure that all participants come to a common understanding of the data in a network without the need for any **central authority**.
+
+Some of the famous protocols:
+
+- **PoW** (proof of work)
+- **PoS** (proof of stake)
+- **PoH** (proof of history)
+
+## Wallets
+
+Wallets are digital tools or software applications that allow individuals to securely store, manage and interact with their crypto assets.
+
+They provide a way for users to store and manage their private keys, which are needed to access and manage their assets on blockchain.
+
+## Smart Contracts
+
+Smart contracts are self-executing, programmable agreements that run on blockchain technology. They are designed to automatically enforce and execute the terms of a contract when predefined conditions or criteria are met. Smart contracts are a key feature of blockchain platforms like Ethereum, Solana etc.
